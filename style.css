@@ -10,6 +10,7 @@ body{
   color: #111111;
   font-family: 'Roboto', sans-serif;
   line-height: 1.5;
+  font-size: 1.5em;
 
 }
 /** navegation **/
@@ -82,6 +83,7 @@ form button{
   font-size: 3rem;
 }
 .about-us{
+  font-size: 1.25rem;
   text-align: center;
   padding: 1em 1.25em;
 }
@@ -100,19 +102,37 @@ form button{
 
 }
 
+.menu h2{
+  font-size: 3em;
+}
 .menu ul{
   list-style: none;
   padding: 0;
 }
 
+.list h3{
+  padding: .5em 1em;
+  font-size: 2em;
+}
 
 
 .find-us{
   text-align: center;
 }
+.find-us{
+  font-size: 3rem;
+}
+.find-us h3{
+  font-size: 2rem;
+}
+
+.find-us address{
+  font-size: 1.5rem;
+}
 
 .contact-us{
   text-align: center;
+
 }
 
 .contact-us ul{
@@ -147,8 +167,6 @@ form button{
   border: 1px solid gray;
   border-radius: 1%;
 }
-
-
 nav li:nth-child(odd){
   background-color: tomato;
   color: #fff;
